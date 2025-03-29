@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { RouterOutlet, RouterLink, RouterLinkActive, Router } from '@angular/router';
+import { RouterOutlet, RouterLink, Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { AuthService } from './auth/auth.service';
 import { HttpClientModule } from '@angular/common/http';
@@ -11,7 +11,6 @@ import { HttpClientModule } from '@angular/common/http';
     CommonModule,
     RouterOutlet,
     RouterLink,
-    RouterLinkActive,
     HttpClientModule
   ],
   templateUrl: './app.component.html',
