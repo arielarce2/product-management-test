@@ -22,7 +22,7 @@ REST API for product and category management developed with Laravel.
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/product-management-test.git
+git clone https://github.com/arielarce2/product-management-test.git
 cd product-management-test
 ```
 
