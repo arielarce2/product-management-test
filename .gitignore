@@ -1,0 +1,33 @@
+# Laravel .gitignore for the back-end (product-management-api)
+product-management-api/node_modules
+product-management-api/public/hot
+product-management-api/public/storage
+product-management-api/storage/*.key
+product-management-api/vendor
+product-management-api/.env
+product-management-api/.env.backup
+product-management-api/.phpunit.result.cache
+product-management-api/docker-compose.override.yml
+product-management-api/Homestead.json
+product-management-api/Homestead.yaml
+product-management-api/npm-debug.log
+product-management-api/yarn-error.log
+product-management-api/.idea
+product-management-api/.vscode
+
+# Angular .gitignore for the front-end (product-management-ui)
+product-management-ui/dist
+product-management-ui/tmp
+product-management-ui/out-tsc
+product-management-ui/bazel-out
+product-management-ui/node_modules
+product-management-ui/npm-debug.log
+product-management-ui/yarn-error.log
+product-management-ui/.angular/cache
+product-management-ui.sass-cache
+product-management-ui/connect.lock
+product-management-ui/coverage
+product-management-ui/libpeerconnection.log
+product-management-ui/typings
+product-management-ui.DS_Store
+product-management-ui.Thumbs.db
